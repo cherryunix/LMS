@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1356632061 source:e:\lms\lms@myver\lms\main.cpp
+	"classes_namespaces.h"
+
+1356634362 e:\lms\lms@myver\lms\classes_namespaces.h
+	<opencv/cv.h>
+	<opencv/highgui.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<fstream>
+
+1356634400 source:e:\lms\lms@myver\lms\methods_keyframe.cpp
+	"classes_namespaces.h"
+
+1356633804 source:e:\lms\lms@myver\lms\methods_lms.cpp
+	"classes_namespaces.h"
+
+1356614681 source:e:\lms\lms@myver\lms\initialize.cpp
+	"classes_namespaces.h"
+
