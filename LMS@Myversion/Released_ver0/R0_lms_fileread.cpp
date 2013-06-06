@@ -11,12 +11,13 @@ Mat lms::_canny_edge(Mat _Cframe, char* _keyframe)
 
   if( *_keyframe == *k)
   {
-    _canny_image = _canny_image(Rect(crop_values[5], crop_values[6],crop_values[7],crop_values[8]));
+    _canny_image = _canny_image(Rect(crop_values[5], crop_values[6],crop_values[7],crop_values[8]));// reading cropping parameters to crop the image
      return(_canny_image);
   }
-_gray_image = _gray_image(Rect(crop_values[0], crop_values[1], crop_values[2],crop_values[3]));
 
-// writting canny image and computing step size
+_gray_image = _gray_image(Rect(crop_values[0], crop_values[1], crop_values[2],crop_values[3]));// reading cropping parameters to crop the image
+
+// writting canny image and fetching step size
 	Step = crop_values[4];
   imwrite("C:/AVC/canny_image.jpg",_canny_image);
 
